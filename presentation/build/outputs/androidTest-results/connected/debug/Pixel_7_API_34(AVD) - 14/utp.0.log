@@ -1,0 +1,36 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.codewithfk.shopper"
+    test_package: "com.codewithfk.shopper.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.codewithfk.shopper/additional_test_output"
+    }
+    args_map {
+      key: "class"
+      value: "com.codewithfk.shopper.TestScenario2#testHomeScreenHeader"
+    }
+    args_map {
+      key: "debug"
+      value: "true"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [/Users/vidyasagar/Downloads/Shopper-compose-master/presentation/build/intermediates/apk/debug/presentation-debug.apk] on device emulator-5554.
+INFO: Installing [/Users/vidyasagar/Downloads/Shopper-compose-master/presentation/build/intermediates/apk/androidTest/debug/presentation-debug-androidTest.apk] on device emulator-5554.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+SEVERE: recordTestResultEvent failed with an error: io.grpc.StatusRuntimeException: CANCELLED: RST_STREAM closed stream. HTTP/2 error code: CANCEL
+SEVERE: Exception while executing runnable io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed@663d8520
+WARNING: Failed to retrieve logcat for some test cases. We retrieved logcat for 0 test cases out of 1 tests.
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.codewithfk.shopper for device emulator-5554.
+INFO: Uninstalling com.codewithfk.shopper.test for device emulator-5554.
+SEVERE: Execute com.codewithfk.shopper.TestScenario2.testHomeScreenHeader: FAILED

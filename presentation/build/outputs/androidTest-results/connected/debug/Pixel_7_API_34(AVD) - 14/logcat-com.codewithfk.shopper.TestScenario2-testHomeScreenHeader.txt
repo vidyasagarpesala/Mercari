@@ -1,0 +1,268 @@
+10-25 19:55:09.505 20817 20841 I TestRunner: started: testHomeScreenHeader(com.codewithfk.shopper.TestScenario2)
+10-25 19:55:09.552 20817 20841 W FileTestStorage: Output properties is not supported.
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: enableTracing failed. You may need to upgrade your androidx.tracing:tracing version
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: java.lang.NoSuchMethodError: No static method forceEnableAppTracing()V in class Landroidx/tracing/Trace; or its super classes (declaration of 'androidx.tracing.Trace' appears in /data/app/~~Ni-I3-9XOSXZs4J-TRC3Kw==/com.codewithfk.shopper-p2i2zg8_kwq5icBvHmprLA==/base.apk!classes18.dex)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.platform.tracing.AndroidXTracer.enableTracing(AndroidXTracer.java:57)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<init>(Tracing.java:53)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<clinit>(Tracing.java:49)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule.providesTracing(BaseLayerModule.java:190)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.providesTracing(BaseLayerModule_ProvidesTracingFactory.java:37)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:29)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:11)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:34)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:12)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.DaggerBaseLayerComponent$BaseLayerComponentImpl.idlingResourceRegistry(DaggerBaseLayerComponent.java:275)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.espresso.Espresso.<clinit>(Espresso.java:64)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.compose.ui.test.EspressoLink_androidKt.runEspressoOnIdle(EspressoLink.android.kt:92)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.compose.ui.test.EspressoLink.runUntilIdle(EspressoLink.android.kt:79)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:326)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)
+10-25 19:55:09.555 20817 20841 E AndroidXTracer: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-25 19:55:09.555 20817 20841 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+10-25 19:55:09.560 20817 20817 D EventInjectionStrategy: Creating injection strategy with input manager.
+10-25 19:55:09.560 20817 20817 W ewithfk.shopper: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+10-25 19:55:09.561 20817 20817 W ewithfk.shopper: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+10-25 19:55:09.561 20817 20817 W ewithfk.shopper: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+10-25 19:55:09.563 20817 20817 W ewithfk.shopper: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+10-25 19:55:09.564 20817 20817 W ewithfk.shopper: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+10-25 19:55:09.564 20817 20817 W ewithfk.shopper: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+10-25 19:55:09.564 20817 20841 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@e398847]
+10-25 19:55:09.575 20817 20841 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-25 19:55:09.622   387   387 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+10-25 19:55:09.635 20817 20817 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f333c0d in: PRE_ON_CREATE
+10-25 19:55:09.636 20817 20845 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-25 19:55:09.636 20817 20817 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-25 19:55:09.637 20817 20845 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-25 19:55:09.643 20817 20845 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-25 19:55:09.667   781   894 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-25 19:55:09.672  1050  1706 D EGL_emulation: app_time_stats: avg=178.08ms min=1.12ms max=3148.91ms count=18
+10-25 19:55:09.677 20817 20817 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f333c0d in: CREATED
+10-25 19:55:09.678 20817 20817 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@f333c0d
+10-25 19:55:09.680 20817 20817 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f333c0d in: STARTED
+10-25 19:55:09.680 20817 20817 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@f333c0d
+10-25 19:55:09.682 20817 20817 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f333c0d in: RESUMED
+10-25 19:55:09.683 20817 20817 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@f333c0d
+10-25 19:55:09.701 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10248; state: DISABLED
+10-25 19:55:09.703 20817 20817 W OpenGLRenderer: Unknown dataspace 0
+10-25 19:55:09.736   387   620 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10248 pid=0
+10-25 19:55:09.736   387   620 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10248 => denied (175 us)
+10-25 19:55:09.736   387   620 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10248 pid=0
+10-25 19:55:09.736   387   620 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10248 => denied (122 us)
+10-25 19:55:09.736   387   620 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10248 pid=0
+10-25 19:55:09.736   387   620 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10248 => denied (107 us)
+10-25 19:55:09.736   387   967 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10248 pid=20817
+10-25 19:55:09.736   387   967 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10248 => denied (966 us)
+10-25 19:55:09.758   781   894 D EGL_emulation: app_time_stats: avg=8012.53ms min=8012.53ms max=8012.53ms count=1
+10-25 19:55:09.770 20817 20843 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-25 19:55:09.770 20817 20843 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-25 19:55:09.795   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-25 19:55:09.795 20817 20843 I Gralloc4: mapper 4.x is not supported
+10-25 19:55:09.883 20817 20843 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-25 19:55:09.934   557  2412 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10248 pid=0
+10-25 19:55:09.934   557  2412 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10248 => denied (283 us)
+10-25 19:55:09.934   557  2412 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10248 pid=0
+10-25 19:55:09.934   557  2412 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10248 => denied (94 us)
+10-25 19:55:09.934   557  2412 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10248 pid=0
+10-25 19:55:09.934   557  2412 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10248 => denied (80 us)
+10-25 19:55:09.942   557   575 W ziparchive: Unable to open '/data/app/~~Ni-I3-9XOSXZs4J-TRC3Kw==/com.codewithfk.shopper-p2i2zg8_kwq5icBvHmprLA==/base.dm': No such file or directory
+10-25 19:55:09.945   557   575 I ActivityTaskManager: Displayed com.codewithfk.shopper/androidx.activity.ComponentActivity for user 0: +356ms
+10-25 19:55:09.947   557  2412 I ImeTracker: com.codewithfk.shopper:c1dbf62f: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-25 19:55:09.947   557  2412 I ImeTracker: com.codewithfk.shopper:c1dbf62f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-25 19:55:09.968   781   894 D EGL_emulation: app_time_stats: avg=29304.05ms min=20.21ms max=321725.41ms count=11
+10-25 19:55:09.969  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+10-25 19:55:09.984  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-25 19:55:09.984  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.codewithfk.shopper fieldId=0 fieldName=null extras=null}, false)
+10-25 19:55:09.984  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-25 19:55:09.985  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-25 19:55:10.029  1050  1105 I ImeTracker: com.google.android.apps.nexuslauncher:2e1011c8: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-25 19:55:10.030  1050  1105 I ImeTracker: com.google.android.apps.nexuslauncher:2e1011c8: onFailed at PHASE_CLIENT_VIEW_SERVED
+10-25 19:55:10.031  1050  1859 D OneSearchSuggestProvider: Shut down the binder channel
+10-25 19:55:10.033  1050  1348 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007003677c00 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-25 19:55:10.244   781   834 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@35751c
+10-25 19:55:10.246   557  2316 W InputManager-JNI: Input channel object '22f44e6 Splash Screen com.codewithfk.shopper (client)' was disposed without first being removed with the input manager!
+10-25 19:55:10.468 20817 20817 W ewithfk.shopper: Verification of void com.codewithfk.shopper.ComposableSingletons$TestScenario2Kt$lambda-1$1$1.invoke(androidx.compose.runtime.Composer, int) took 232.335ms (408.89 bytecodes/s) (3688B approximate peak alloc)
+10-25 19:55:10.514 20817 20817 W ewithfk.shopper: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+10-25 19:55:10.514 20817 20817 W ewithfk.shopper: Common causes for lock verification issues are non-optimized dex code
+10-25 19:55:10.514 20817 20817 W ewithfk.shopper: and incorrect proguard optimizations.
+10-25 19:55:10.514 20817 20817 W ewithfk.shopper: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+10-25 19:55:10.514 20817 20817 W ewithfk.shopper: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+10-25 19:55:10.514 20817 20817 W ewithfk.shopper: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+10-25 19:55:10.514 20817 20817 W ewithfk.shopper: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+10-25 19:55:10.725 20817 20817 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+10-25 19:55:10.725 20817 20817 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+10-25 19:55:10.725 20817 20817 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: REQUEST: https://ecommerce-ktor-4641e7ff1b63.herokuapp.com/v2/products/category/1
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: METHOD: HttpMethod(value=GET)
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: COMMON HEADERS
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Accept: application/json
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Accept-Charset: UTF-8
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Content-Type: application/json
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: CONTENT HEADERS
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Content-Length: 0
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY Content-Type: null
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY START
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND:
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY END
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: REQUEST: https://ecommerce-ktor-4641e7ff1b63.herokuapp.com/v2/products/category/2
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: METHOD: HttpMethod(value=GET)
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: COMMON HEADERS
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Accept: application/json
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Accept-Charset: UTF-8
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Content-Type: application/json
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: CONTENT HEADERS
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Content-Length: 0
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY Content-Type: null
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY START
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND:
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY END
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: REQUEST: https://ecommerce-ktor-4641e7ff1b63.herokuapp.com/v2/categories
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: METHOD: HttpMethod(value=GET)
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: COMMON HEADERS
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Accept: application/json
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Accept-Charset: UTF-8
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Content-Type: application/json
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: CONTENT HEADERS
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: -> Content-Length: 0
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY Content-Type: null
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY START
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND:
+10-25 19:55:10.770 20817 20817 D SHOPPER_BACKEND: BODY END
+10-25 19:55:10.837 20817 20852 D TrafficStats: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+10-25 19:55:10.838 20817 20853 D TrafficStats: tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+10-25 19:55:10.838 20817 20854 D TrafficStats: tagSocket(116) with statsTag=0xffffffff, statsUid=-1
+10-25 19:55:10.865 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 289878283; UID 10248; state: ENABLED
+10-25 19:55:10.918 20817 20817 D CompatibilityChangeReporter: Compat change id reported: 236825255; UID 10248; state: ENABLED
+10-25 19:55:10.949 20817 20843 E FrameEvents: updateAcquireFence: Did not find frame.
+10-25 19:55:10.956 20817 20831 I OpenGLRenderer: Davey! duration=866ms; Flags=0, FrameTimelineVsyncId=145430, IntendedVsync=15115523963915, Vsync=15115923963899, InputEventId=0, HandleInputStart=15115938276164, AnimationStart=15115938277748, PerformTraversalsStart=15115938278789, DrawStart=15116339275790, FrameDeadline=15115540630581, FrameInterval=15115938065623, FrameStartTime=16666666, SyncQueued=15116352565915, SyncStart=15116352607373, IssueDrawCommandsStart=15116352705706, SwapBuffers=15116379903165, FrameCompleted=15116390771498, DequeueBufferDuration=4542, QueueBufferDuration=108833, GpuCompleted=15116390771498, SwapBuffersCompleted=15116381404123, DisplayPresentTime=35197256990720, CommandSubmissionCompleted=15116379903165,
+10-25 19:55:10.959  1279  2092 I FontLog : (REDACTED) Received query %s, URI %s
+10-25 19:55:10.960  1279  2092 I FontLog : (REDACTED) Query [%s] resolved to %s
+10-25 19:55:10.964  1279  2092 I FontLog : (REDACTED) Fetch %s end status %s
+10-25 19:55:10.966  1279  2092 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-25 19:55:10.968  1279  2092 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-25 19:55:10.973   781   894 D EGL_emulation: app_time_stats: avg=16.84ms min=2.69ms max=37.75ms count=55
+10-25 19:55:11.016 20817 20817 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+10-25 19:55:11.207 11624 11637 W android.vending: Suspending all threads took: 6.077ms
+10-25 19:55:11.720   781   781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-25 19:55:14.878   781   781 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-25 19:55:17.886   781   781 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-25 19:55:20.889   781   781 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-25 19:55:21.590  1819  1819 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-25 19:55:21.737   781   781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-25 19:55:26.667   416   456 I adbd    : jdwp connection from 20817
+10-25 19:55:26.880   557  1704 I ImeTracker: com.codewithfk.shopper:b58d82ea: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_REMOVE_CLIENT
+10-25 19:55:26.884   557  1704 I ImeTracker: com.codewithfk.shopper:b58d82ea: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-25 19:55:26.906   387   387 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+10-25 19:55:26.916   781   781 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-25 19:55:26.940   557   570 W InputManager-JNI: Input channel object '2d591b3 com.codewithfk.shopper/androidx.activity.ComponentActivity (client)' was disposed without first being removed with the input manager!
+10-25 19:55:26.952 20787 20787 I app_process: System.exit called, status: 0
+10-25 19:55:26.952 20787 20787 I AndroidRuntime: VM exiting with result code 0.
+10-25 19:55:26.967   350   350 I Zygote  : Process 20817 exited cleanly (255)
+10-25 19:55:26.969   956   956 D CarrierSvcBindHelper: onHandleForceStop: [com.codewithfk.shopper]
+10-25 19:55:26.977  1725  5497 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-25 19:55:27.025   956   956 D CarrierSvcBindHelper: No carrier app for: 0
+10-25 19:55:27.036 11624 11624 I Finsky  : [2] aewz.onStartJob(127): SCH: job service start with id 9759.
+10-25 19:55:27.049  1050  1706 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-25 19:55:27.077 11624 20766 I Finsky  : [545] maz.a(186): SCH: Satisfied jobs for 9759 are: 12-1
+10-25 19:55:27.081 11624 20883 I Finsky  : [553] abrh.accept(98): SCH: Job 12-1 starting
+10-25 19:55:27.082 11624 11624 I Finsky  : [2] ContentSyncJob.h(9): [ContentSync] job started
+10-25 19:55:27.162  1050  1106 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+10-25 19:55:27.190  1489  1628 I AiAiEcho: Predicting[0]:
+10-25 19:55:27.190  1489  1628 I AiAiEcho: EchoTargets:
+10-25 19:55:27.190  1489  1628 I AiAiEcho: Filtered by AiAi flag check:
+10-25 19:55:27.190  1489  1628 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+10-25 19:55:27.215  1489  1628 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-25 19:55:27.218   557  1557 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: Failed to fetch suggestions from AppSearch, fallback to AGA
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.H0.onResult(Unknown Source:59)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(SearchSessionUtil.java:129)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$_nlk9WiPjSfaAsqKYmp0aPvSRC0(SearchSessionUtil.java:1)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:13)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:294)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:144)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.H0.onResult(Unknown Source:16)
+10-25 19:55:27.237  1050  1859 E OneSearchSuggestProvider: 	... 8 more
+10-25 19:55:27.242 11624 20884 I Finsky  : [554] vyo.r(36): Completed 0 account content syncs with 0 successful.
+10-25 19:55:27.242 11624 11624 I Finsky  : [2] ContentSyncJob.a(12): [ContentSync] Installation state replication succeeded.
+10-25 19:55:27.242 11624 11624 I Finsky  : [2] aevj.q(56): SCH: jobFinished: 12-1. TimeElapsed: 160ms.
+10-25 19:55:27.244   557  1710 I ImeTracker: com.google.android.apps.nexuslauncher:adef5314: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-25 19:55:27.244   557  1710 I ImeTracker: com.google.android.apps.nexuslauncher:adef5314: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-25 19:55:27.248  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+10-25 19:55:27.251  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-25 19:55:27.251  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.apps.nexuslauncher fieldId=0 fieldName=null extras=null}, false)
+10-25 19:55:27.251  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-25 19:55:27.254  1546  1546 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-25 19:55:27.322 11624 11680 I Finsky  : [78] qme.accept(58): SCH: Scheduling phonesky job Id: 1-1337, CT: 1729865150071, Constraints: [{ L: 37237369, D: 80437369, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY }]
+10-25 19:55:27.333  1050  1859 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=z1{delegate=s1{logId=165, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=X1.T@23256c3
+10-25 19:55:27.363 11624 11678 I Finsky  : [76] may.apply(170): SCH: Scheduling 1 system job(s)
+10-25 19:55:27.398 11624 11678 I Finsky  : [76] aevf.b(244): SCH: Scheduling system job Id: 9762, L: 36060077, D: 79260077, C: false, I: false, N: 1
+10-25 19:55:27.640   557  2007 I Process : Sending signal. PID: 20817 SIG: 9
+10-25 19:55:27.646   781   894 D EGL_emulation: app_time_stats: avg=980.76ms min=17.35ms max=15921.01ms count=17
+10-25 19:55:27.929 11624 20883 I Finsky  : [553] aewz.a(24): SCH: job service finished with id 9759.
+10-25 19:55:28.217   387   387 E BpTransactionCompletedListener: Failed to transact (-32)
+10-25 19:55:28.370   781   844 I OpenGLRenderer: Davey! duration=904ms; Flags=0, FrameTimelineVsyncId=146785, IntendedVsync=15132857296555, Vsync=15133040629881, InputEventId=0, HandleInputStart=15133604182839, AnimationStart=15133604184089, PerformTraversalsStart=15133659726423, DrawStart=15133660121631, FrameDeadline=15133107296545, FrameInterval=15133052396214, FrameStartTime=16666666, SyncQueued=15133662056589, SyncStart=15133662471964, IssueDrawCommandsStart=15133662524173, SwapBuffers=15133694974423, FrameCompleted=15133761714089, DequeueBufferDuration=9417, QueueBufferDuration=10612958, GpuCompleted=15133761645714, SwapBuffersCompleted=15133761714089, DisplayPresentTime=0, CommandSubmissionCompleted=15133694974423,
+10-25 19:55:28.407   557   579 I Choreographer: Skipped 46 frames!  The application may be doing too much work on its main thread.
+10-25 19:55:28.407  1725  1725 I Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+10-25 19:55:28.510  1725  2563 I OpenGLRenderer: Davey! duration=888ms; Flags=0, FrameTimelineVsyncId=146823, IntendedVsync=15133040629881, Vsync=15133840629849, InputEventId=0, HandleInputStart=15133842638506, AnimationStart=15133842659215, PerformTraversalsStart=15133842659756, DrawStart=15133857679340, FrameDeadline=15133057296547, FrameInterval=15133842216840, FrameStartTime=16666666, SyncQueued=15133872943173, SyncStart=15133873437798, IssueDrawCommandsStart=15133884957673, SwapBuffers=15133891049006, FrameCompleted=15133929848631, DequeueBufferDuration=30084, QueueBufferDuration=30722000, GpuCompleted=15133929733590, SwapBuffersCompleted=15133929848631, DisplayPresentTime=7160553427232975150, CommandSubmissionCompleted=15133891049006,
+10-25 19:55:28.513  1725  1725 I A       : (REDACTED) Created gRPC endpoint for service %s
+10-25 19:55:28.642  1050  1050 D SearchTargetUtil:  query= size=15
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAA+CAMAAADeUI/rAAAAbFBMVEXtHCcCT6L////tGiXtFCEAQZ3K0uTsAAD+8vLsABbsABDsAAj1oKLsABP84OHyc3fwV1ztDRz5yMn72dr0j5LuMjn96en1mJryb3PuOUD3rrDwW2D4urv3tLbxam7tJS7vTVLzgoXvQEf60NG/0h32AAABt0lEQVRYhe2Y23KDIBCGKdIuomIUrTmYaJr3f8eCHGzTmd6xzGT4LxLx5huX/ZddyFtCkQzP8Ax/ffh7QpGPhCI0oQhLKFIkFMn6V6ypAECUDJ1cNHCoe6XUPIzQ4bI7UXPji8H8yBYwvx5a60kF9l+OJRa6gKsrCAMo93SrkODQ+2q0NIN/bAUOu/ZACWwJZXHFSDt2CLypJCD9ggNCcYLPAB8ZKaewqpvo7O4YaBJ0HMb9PIr/6VXPvSbjL1BhfY+960VFJ3Cy3vYrUH1su5l0k8ufklLAzaRcZHh330z9tL3Mlp0y8qa77J5/VXNxsg4YceCUf+2hh7sveJHhnQfRo89tMftXTWT4Xt9WH3hxDjUuLttY7ZnEVvcqutUIPCzpbE6xbss74PZV9CITyutBN9jQKmN5H3eEk8UeLDrq1tza8i4PEA4Wl3JX4c2tLb/FHeVItc3EJZhbW34LwYrTROo2iu+tlNag871FCLqRbiAlpz/1oDecFs7It86hrcBrnck+NFg07tCwjUsXPS7JxzycsMclo3SD4qsq6bVI0gshmlBpLwGTXn8mvfjN8AzP8JeHfwNSrC79OZ9ZDwAAAABJRU5ErkJggg==,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=north korean south korea,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=north korean south korea searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: c9ab2d0f-db32-4180-ba8c-ced44738bbd0
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=festival diwali date,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=festival diwali date searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: e262066f-ed1d-4738-9683-dd1e0616559a
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,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
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=sonam wangchuk hunger strike,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=sonam wangchuk hunger strike searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: f391268e-d89f-44d1-b0fd-bb28c6520f87
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=chennai beaches bioluminescence,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=chennai beaches bioluminescence searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 62d1f3e8-63a1-4f5a-a162-837846ef2aa8
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=bomb threat kochi,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=bomb threat kochi searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: fb54c4bf-691b-40d4-a16a-8fdec2e52bd5
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=gurpatwant singh pannun,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=Gurpatwant Singh Pannun searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 90ab91a5-25aa-4939-9653-e17fa09953e9
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=diogo jota injury update,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=diogo jota injury update searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 03577ae5-1edc-42bb-904e-8387be51f378
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=vikram dev dutt ias,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=vikram dev dutt ias searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 53a62bb6-db27-4b6b-b25a-40432d22ba8c
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=india china border agreement,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=india china border agreement searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: b141336a-0293-4940-afab-24d481f9ea52
+10-25 19:55:28.643  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=happy birthday songs,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=happy birthday songs searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: a0c5d27a-a1f2-4460-b570-daff98c87acb
+10-25 19:55:28.644  1050  1050 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,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
+10-25 19:55:28.644  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=air india revamps fare structure with eight categories for customized travel options,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=air india revamps fare structure with eight categories for customized travel options searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 2d38f816-cfb6-4f0a-a921-857e980a6403
+10-25 19:55:28.644  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=continue deepinder goyal,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=continue deepinder goyal searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: cf8b72f1-8cf0-4e55-a436-25bd96eabe84
+10-25 19:55:28.644  1050  1050 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=shreyas iyer may not be top retention for kkr with andre russell the likely choice,group_id=web395795,response_id=d806aad5-f77a-4d28-8f01-c10f0ead34ae,support_query_builder=false,} searchAction=shreyas iyer may not be top retention for kkr with andre russell the likely choice searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 4dcc45df-6fc2-4e96-be38-02e0c0864a50
+10-25 19:55:28.648   781   894 D EGL_emulation: app_time_stats: avg=58.44ms min=0.64ms max=679.64ms count=15
+10-25 19:55:28.938   557   570 D WifiNl80211Manager: Scan result ready event
+10-25 19:55:28.939   557   570 D WifiNative: Scan result ready event
+10-25 19:55:29.691   781   894 D EGL_emulation: app_time_stats: avg=28.99ms min=0.70ms max=107.84ms count=30
+10-25 19:55:31.949   781   781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-25 19:55:33.605 11624 11637 W android.vending: Suspending all threads took: 17.334ms
+10-25 19:55:36.326   781   781 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled

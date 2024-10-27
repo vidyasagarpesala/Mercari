@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_bold_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_bold_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_bold.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_back.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_star.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_profile.png.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_profile.png"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_thin_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_thin_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_medium.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_orders.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_orders.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_favorite.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_extra_bold_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_extra_bold_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_regular.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_semi_bold_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_semi_bold_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_search.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_subtract.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_subtract.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_thin.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_thin.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_success.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_success.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_delete.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_address.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_address.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_extra_light_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_extra_light_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_medium_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_medium_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_black.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_black.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_profile_bn.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_profile_bn.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_lack_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_lack_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.mercari.presentation-main-73:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_light_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_light_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_light.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_light.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_home.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_italic.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_italic.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_notificatino.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/notificatino.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/xml_backup_rules.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_semi_bold.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_semi_bold.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/drawable_ic_add.xml.flat",
+        "source": "com.example.mercari.presentation-main-73:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_extra_light.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_extra_light.ttf"
+    },
+    {
+        "merged": "com.example.mercari.presentation-debug-71:/font_poppins_extra_bold.ttf.flat",
+        "source": "com.example.mercari.presentation-main-73:/font/poppins_extra_bold.ttf"
+    }
+]
